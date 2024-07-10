@@ -1,8 +1,11 @@
 #include <iostream>
+using namespace std;
 
-
+string printHelloWorld() {
+    return "Hello World!";
+}
 
 int main() {
-    std::cout << "Hello World!";
+    cout << printHelloWorld();
     return 0;
 }
