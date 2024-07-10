@@ -5,7 +5,11 @@ string printHelloWorld() {
     return "Hello World!";
 }
 
+string printGoodbyeWorld() {
+    return "Goodbye World!";
+}
+
 int main() {
-    cout << printHelloWorld();
+    cout << printGoodbyeWorld();
     return 0;
 }
